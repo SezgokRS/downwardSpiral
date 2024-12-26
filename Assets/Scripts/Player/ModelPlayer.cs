@@ -17,5 +17,6 @@ public class ModelPlayer
     public void Fire()
     {
         BulletPool.instance.GetComponent<IBulletType>().ShootBullet();
+
     }
 }

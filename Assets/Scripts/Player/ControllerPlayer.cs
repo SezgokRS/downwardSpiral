@@ -22,6 +22,7 @@ public class ControllerPlayer : MonoBehaviour
     #endregion
 
     public float speed;
+    public int bulletAmount;
     ModelPlayer modelPlayer = new ModelPlayer();
     ViewPlayer viewPlayer = new ViewPlayer();
 
